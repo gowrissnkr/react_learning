@@ -1,0 +1,4 @@
+** What is Emmet?
+    --> Emmet is popular web developer tool that helps developer to write HTML and CSS more quickly and efficently.
+    --> It's a set of abbreviations and shortcuts that expand HTML and CSS code.
+
