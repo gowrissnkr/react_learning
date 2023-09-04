@@ -1,4 +1,53 @@
 ** What is Emmet?
+
     --> Emmet is popular web developer tool that helps developer to write HTML and CSS more quickly and efficently.
     --> It's a set of abbreviations and shortcuts that expand HTML and CSS code.
+
+** Difference between libraries and frameworks?
+
+    Libraries : 
+    --> Libraries are collections of pre-written functions or code snippets that provide specific functionality.
+    -->  Control over the application's flow remains with the developer, and the library is often used as a tool to simplify and speed up specific tasks.
+
+    Frameworks :
+    --> Frameworks, on the other hand, provide a structured architecture and dictate the overall flow and organization of an application. Developers build their applications within the framework's predefined structure, and the framework itself controls the flow of the program.
+
+** What is CDN? why we use cdn?
+
+    --> CDN stands for Content Delivery Network.
+    --> The primary purpose of a CDN is to deliver web content, such as text, images, videos, stylesheets, and scripts.
+
+** Why is React known as React?
+
+    --> React, the popular JavaScript library for building user interfaces, is known as "React" because of its fundamental concept of "reactive" or "declarative" programming. The name "React" reflects the core idea behind the library, which is to create user interfaces.
+
+** What is cross-origin in the script tag?
+
+    --> The concept of "cross-origin" in the context of the script tag refers to a security restriction imposed by web browsers to prevent potentially harmful actions that could arise from loading JavaScript code or resources from domains other than the one hosting the current web page.
+
+** What is the difference between React and React-dom?
+
+    React :
+    --> React is the core library for building user interfaces in a declarative and component-based way. It provides the foundation for creating and managing components, rendering UI elements, and handling state and props.
+
+    ReactDOM :
+    --> React DOM is a specific implementation of React that is tailored for web applications. It provides the necessary tools for rendering React components into the DOM (Document Object Model) of a web page.
+
+** What is the difference between react.development.js and react.production.js files via CDN?
+
+    react.development.js : 
+    --> This version of React is intended for development and debugging purposes. It includes additional warnings, error messages, and helpful development tools that aid developers in identifying and addressing issues in their code.
+
+    react.production.js : 
+    --> The production version of React is optimized for performance and is intended for use in production environments. It omits development-specific warnings, error messages, and debugging tools to reduce file size and improve runtime performance.
+
+** What are async and differ?
+
+    Async : 
+    --> Use the async attribute when you have scripts that can run independently and don't need to maintain a specific order of execution.
+
+    Differ : 
+    --> Use the defer attribute when you want to ensure that scripts are executed in the order they appear in the HTML document and that they have access to a fully parsed DOM.
+
+    
 

@@ -1,0 +1,46 @@
+Hello World Using HTML :
+
+    <div id="root">
+        <h1>Hello World!</h1>
+    </div>
+
+Hello World Using JavaScript : 
+
+    <script>
+        const heading = document.createElement("h1");
+
+        heading.innerHTML = "Hello World!"
+
+        const root = document.getElementById("root");
+        root.appendChild(heading)
+    </script>
+
+Create React : 
+
+--> CDN LINKS :
+ <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+
+-----> 
+
+const heading = React.createElement("div", { id: "parent" },
+    [React.createElement("div", { id: "child" },
+        [React.createElement("h1", { id: "" }, "Im H1 Tag"),
+        React.createElement("h2", { id: "" }, "Im H2 Tag")]
+    ),
+    React.createElement("div", { id: "child" },
+        [React.createElement("h1", { id: "" }, "Im H1 Tag"),
+        React.createElement("h2", { id: "" }, "Im H2 Tag")]
+    )
+    ]
+);
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(heading)
