@@ -35,16 +35,24 @@ nav {
     font-weight: 400;
 }
 
-.nav-logo a img {
-    width: 128px;
-    bottom: 50px;
-    right: 50px;
+.nav-logo a span {
+    font-weight: 800;
+    color: black;
+    cursor: pointer;
+    font-size: 36px;
+    text-transform: uppercase;
 }
 
 .mid-menu {
     width: 100%;
     max-width: 400px;
     position: relative;
+    display: flex;
+    list-style: none;
+}
+
+.mid-menu li {
+    padding: 0px 20px;
 }
 
 .mid-menu input {
@@ -66,4 +74,71 @@ nav {
     width: 50px;
     height: 50px;
     border-radius: 50%;
+}
+
+#res-section {
+    padding: 4% 8% 0;
+}
+
+.res-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1%;
+}
+
+.product-card {
+    width: 100%;
+    box-shadow: 0 2px 5px #ccc;
+    border-radius: 5px;
+}
+
+.product-card a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.product-card a img {
+    width: 100%;
+}
+
+.card-details {
+    padding: 16px;
+}
+
+.card-details h4 {
+    font-weight: 600;
+    margin: 0;
+    font-size: 18px;
+    word-spacing: 5px;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.card-details h5 {
+    font-weight: 600;
+    opacity: 0.8;
+    margin: 0;
+    margin-top: 12px;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.card-details p {
+    margin: 0;
+    margin-top: 12px;
+    font-weight: 600;
+    color: #009688;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: "Open Sans", sans-serif;
 }
