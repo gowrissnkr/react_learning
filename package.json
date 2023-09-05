@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/gowrissnkr/react_learning#readme",
   "devDependencies": {
-    "parcel": "^2.9.3",
+    "cosmiconfig": "^8.2.0",
+    "parcel": "^2.8.0",
     "process": "^0.11.10"
   },
   "dependencies": {

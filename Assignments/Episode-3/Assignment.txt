@@ -1,0 +1,31 @@
+** What is JSX? 
+
+    -->  It is a syntax extension for JavaScript, often associated with the React library for building user interfaces. JSX allows you to write HTML-like code within JavaScript
+
+    -->  You can embed JavaScript expressions within JSX using curly braces {}. 
+
+    --> SX enables the composition of reusable components. You can define custom components that are made up of other JSX elements, allowing you to create complex UI structures from smaller, reusable pieces.
+
+
+** Superpower of JSX?
+
+    --> JSX allows embedding JavaScript expressions within curly braces {}.
+
+    --> JSX allows you to seamlessly integrate JavaScript logic within your UI components. You can use variables, loops, conditionals, and functions to generate dynamic UIs, making it easy to create interactive and data-driven applications.
+
+
+** Role of type attribute in script tag? what options i can use there?
+
+    --> The type attribute in the script tag is used to specify the type of scripting language or technology being used within the script block.
+
+    --> If the type attribute is omitted, the default scripting language is assumed to be JavaScript.
+
+    --> To explicitly specify JavaScript, you can use the type attribute with the value "text/javascript.
+
+    --> For JavaScript modules, you can use the type attribute with the value "module." This tells the browser that the script should be treated as an ES6 module. Module scripts have a separate scope and support import and export statements.
+
+** {TitleComponent} vs <TitleComponent /> vs <TitleComponent></TitleComponent> in jsx?
+
+    --> {TitleComponent} is not used for rendering components directly but for embedding JavaScript expressions.
+
+    --> <TitleComponent /> and <TitleComponent></TitleComponent> are used to render React components within JSX, with the former being the more common and concise syntax.
